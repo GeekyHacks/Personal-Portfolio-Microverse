@@ -76,7 +76,7 @@ This is my first project with Microverse using Github professional flow
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://geekyhacks.github.io/Hello-Microverse-project/)
+- [Live Demo Link](https://geekyhacks.github.io/Hello-Microverse/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
