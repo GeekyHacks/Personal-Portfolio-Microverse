@@ -119,6 +119,6 @@ make this project.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](/Hello-Microverse/MIT.md) licensed.
+This project is [MIT](https://github.com/GeekyHacks/Hello-Microverse/blob/e78d5d376145aa071c3db6ef11befb211eae7b1e/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
