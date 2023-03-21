@@ -72,9 +72,9 @@ Using the <em>git clone</em> command
 
 👤 **GeekyHacks**
 
-- GitHub: [@githubhandle](https://github.com/GeekyHacks)
-- Twitter: [@twitterhandle](https://twitter.com/GeekyDart)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdullah-nasser-711625268/)
+- GitHub: [Geekyhacks](https://github.com/GeekyHacks)
+- Twitter: [Geekydart](https://twitter.com/GeekyDart)
+- LinkedIn: [Abdullah Nasser](https://www.linkedin.com/in/abdullah-nasser-711625268/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -111,7 +111,7 @@ make this project.
 
 - [Of course you can as long as you fork it and star it]
 
-- **[Can I contribute to this project?]**
+[Can I contribute to this project?]\*\*
 
 - [definitely you can]
 
@@ -119,6 +119,6 @@ make this project.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](/Hello-Microverse/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
