@@ -1,3 +1,94 @@
-.header {
-  color: gray;
+* {
+  /*Reset's every elements apperance*/
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  border-spacing: 0;
+  color: #26589f;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.42rem;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  outline: none;
+  text-indent: 0;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.container {
+  position: absolute;
+  width: 368px;
+  height: 1378px;
+}
+.box {
+  width: 100%;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.mylogo,
+.menu-button {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border: none;
+  padding: 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.mylogo {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: medium;
+  font-weight: 700;
+  text-align: center;
+}
+
+/*to add an effects when clicking and hovering buttons I used the following styling*/
+.menu-button::after,
+.mylogo::after {
+  content: "";
+  background: white;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.menu-button:active:after,
+.mylogo:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.headlines {
+  background-image: url("assests/images/header-illustration-mobile/header-illsutration-mobile@2x.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  width: 375px;
+  height: 600px;
 }
