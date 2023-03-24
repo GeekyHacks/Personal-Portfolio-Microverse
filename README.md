@@ -44,7 +44,7 @@ This is my second project with Microverse using Github professional flow
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://geekyhacks.github.io/Hello-Microverse/)
+- [Live Demo Link](https://geekyhacks.github.io/Personal-Portfolio-Microverse/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
