@@ -23,7 +23,6 @@
 .toolbar {
   display: flex;
   justify-content: space-between;
-  height: 60px;
 }
 
 .mylogo,
@@ -33,7 +32,8 @@
 .btn-github,
 .btn-medium,
 .btn-angellist,
-.btn-linkedin {
+.btn-linkedin,
+.btn-downarrow {
   border: none;
 
   text-decoration: none;
@@ -43,7 +43,6 @@
 }
 
 .menu-button {
-  padding: 10px 89px 5px 3px;
   margin: 10px;
 }
 
@@ -65,11 +64,11 @@
 .headlines {
   border-bottom-left-radius: 10%;
   height: calc(100% - 72px);
-  display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
+  padding: 108px 2% 0 2%;
 }
+
 .headlines-container {
   width: 50%;
   padding: 1px 3px;
@@ -86,6 +85,11 @@
   line-height: 52px;
   text-align: center;
   color: #172b4d;
+  margin-bottom: 20px;
+}
+
+.dev-span {
+  color: #36b37e;
 }
 .supporting-content {
   width: 327px;
@@ -98,6 +102,7 @@
   line-height: 28px;
   text-align: center;
   color: #172b4d;
+  margin-bottom: 20px;
 }
 
 .contact-icons {
@@ -119,3 +124,9 @@
   color: #505f79;
 }
 
+
+.downarrow{
+  color: #505f79;
+  margin: 0px 300%;
+  padding-top: 35px;
+}
