@@ -1,95 +1,121 @@
 * {
   /*Reset's every elements apperance*/
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
   background: none repeat scroll 0 0 transparent;
   border: medium none;
   border-spacing: 0;
-  color: #26589f;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.42rem;
-  list-style: none outside none;
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  text-decoration: none;
-  outline: none;
-  text-indent: 0;
 }
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
+
 .container {
-  position: absolute;
-  width: 368px;
-  height: 1378px;
+  height: 100vh;
+  display: flex;
 }
-.box {
+.header {
   width: 100%;
 }
 
 .toolbar {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  height: 60px;
 }
 
 .mylogo,
-.menu-button {
-  width: 48px;
-  height: 48px;
-  position: relative;
+.menu-button,
+.icon-menu,
+.btn-twitter,
+.btn-github,
+.btn-medium,
+.btn-angellist,
+.btn-linkedin {
   border: none;
-  padding: 20px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+
   text-decoration: none;
   cursor: pointer;
-  color: black;
+  color: #172b4d;
+  cursor: pointer;
 }
 
+.menu-button {
+  padding: 10px 89px 5px 3px;
+  margin: 10px;
+}
 
 .mylogo {
   font-family: "Inter";
   font-style: normal;
   font-size: medium;
   font-weight: 700;
-  text-align: center;
-}
-
-/*to add an effects when clicking and hovering buttons I used the following styling*/
-.menu-button::after,
-.mylogo::after {
-  content: "";
-  background: white;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px !important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s;
-}
-
-.menu-button:active:after,
-.mylogo:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s;
+  padding: 15px 0px 5px 10px;
+  margin: 10px;
 }
 
 .headlines {
-  background-image: url("assests/images/header-illustration-mobile/header-illsutration-mobile@2x.jpg");
-  background-color: #cccccc;
-  background-position: center;
+  background-image: url("assests/images/header-illustration-mobile/header-illsutration-mobile.svg");
   background-repeat: no-repeat;
-  background-size: cover;
-
-  position: absolute;
-  width: 375px;
-  height: 600px;
+  background-size: 100% 100%;
 }
+
+.headlines {
+  border-bottom-left-radius: 10%;
+  height: calc(100% - 72px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.headlines-container {
+  width: 50%;
+  padding: 1px 3px;
+  margin: 2px 2px;
+}
+.primary {
+  width: 327px;
+  height: 211px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+.supporting-content {
+  width: 327px;
+  height: 164px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 60px;
+
+  width: 170.17px;
+  height: 19.62px;
+
+  box-sizing: border-box;
+}
+
+.icon-twitter,
+.icon-github,
+.icon-linkedin,
+.icon-medium,
+.icon-angellist {
+  color: #505f79;
+}
+
