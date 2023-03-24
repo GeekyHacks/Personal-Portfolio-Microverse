@@ -1,7 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
@@ -32,7 +31,7 @@
 
 # 📖 [Hello Microverse!] <a name="about-project"></a>
 
-This is my first project with Microverse using Github professional flow
+This is my second project with Microverse using Github professional flow
 **[Hello Microverse!]**
 
 ## 🛠 Built With <a name="built-with">HTML, CSS</a>
@@ -45,7 +44,7 @@ This is my first project with Microverse using Github professional flow
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://geekyhacks.github.io/Hello-Microverse/)
+- [Live Demo Link](https://geekyhacks.github.io/Personal-Portfolio-Microverse/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,8 +99,7 @@ people.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for their unique way of teach me how to code, and also Freecodecamp for their practical articles that helped me to
-make this project.
+I would like to thank Microverse for their unique way of teach me how to code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,6 +117,6 @@ make this project.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/GeekyHacks/Hello-Microverse/blob/e78d5d376145aa071c3db6ef11befb211eae7b1e/MIT.md) licensed.
+This project is [MIT](https://github.com/GeekyHacks/Personal-Portfolio-Microverse/blob/c94c940b573e85b888d2d3da699284214552018b/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
