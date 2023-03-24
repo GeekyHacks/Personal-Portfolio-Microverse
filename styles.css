@@ -3,9 +3,9 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  border: 0;
+ 
+
+  
   outline: none;
   background: none repeat scroll 0 0 transparent;
   border: medium none;
@@ -58,16 +58,15 @@
 .headlines {
   background-image: url("assests/images/header-illustration-mobile/header-illsutration-mobile.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+
+background-size: 100% 100%;
+
+ 
+  padding-top: 80px;
+
 }
 
-.headlines {
-  border-bottom-left-radius: 10%;
-  height: calc(100% - 72px);
-  justify-content: center;
-  align-items: center;
-  padding: 108px 2% 0 2%;
-}
+
 
 .headlines-container {
   width: 50%;
@@ -127,6 +126,6 @@
 
 .downarrow{
   color: #505f79;
-  margin: 0px 300%;
+  margin: 0px 324%;
   padding-top: 35px;
 }
