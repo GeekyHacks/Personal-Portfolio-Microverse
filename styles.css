@@ -1,9 +1,6 @@
 * {
-  /*Reset's every elements apperance*/
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+ 
   box-sizing: border-box;
-
   outline: none;
   background: none repeat scroll 0 0 transparent;
   border: 0;
@@ -16,7 +13,7 @@
   justify-content: center;
 }
 
-/*to arrange all sections inside themain*/
+
 
 .toolbar {
   display: flex;
