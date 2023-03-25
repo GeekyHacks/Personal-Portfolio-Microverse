@@ -52,7 +52,6 @@
   text-decoration: none;
   cursor: pointer;
   color: #172b4d;
-  
 }
 
 .headlines {
@@ -254,7 +253,7 @@
   transition-duration: 0.4s;
 }
 
-button:hover{
+button:hover {
   background-color: whitesmoke;
   color: #36b37f;
 }
@@ -264,7 +263,6 @@ button:hover{
 .about-me {
   text-align: left;
   margin-top: 35px;
-
 }
 .about-me div {
   color: #172b4d;
@@ -290,5 +288,3 @@ button:hover{
   line-height: 24px;
   color: #344563;
 }
-
-
