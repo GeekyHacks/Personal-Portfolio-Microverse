@@ -33,7 +33,6 @@
     "es-shim-unscopables": "^1.0.0",
     "es-to-primitive": "^1.2.1",
     "escape-string-regexp": "^4.0.0",
-    "eslint": "^8.36.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-scope": "^7.1.1",
     "eslint-visitor-keys": "^3.3.0",
@@ -162,6 +161,10 @@
     "yocto-queue": "^0.1.0"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
