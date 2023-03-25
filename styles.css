@@ -3,26 +3,40 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
- 
 
-  
   outline: none;
   background: none repeat scroll 0 0 transparent;
-  border: medium none;
+  border: 0;
   border-spacing: 0;
 }
 
 .container {
-  height: 100vh;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.header {
-  width: 100%;
-}
+
+/*to arrange all sections inside themain*/
 
 .toolbar {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  align-items: baseline;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.menu-button {
+  margin-right: 20px;
+}
+
+.mylogo {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: large;
+  font-weight: 700;
+  margin-left: 10px;
 }
 
 .mylogo,
@@ -35,97 +49,152 @@
 .btn-linkedin,
 .btn-downarrow {
   border: none;
-
   text-decoration: none;
   cursor: pointer;
   color: #172b4d;
   cursor: pointer;
 }
 
-.menu-button {
-  margin: 10px;
-}
-
-.mylogo {
-  font-family: "Inter";
-  font-style: normal;
-  font-size: medium;
-  font-weight: 700;
-  padding: 15px 0px 5px 10px;
-  margin: 10px;
-}
-
 .headlines {
-  background-image: url("assests/images/header-illustration-mobile/header-illsutration-mobile.svg");
+  background-image: url(assests/images/header-illustration-mobile/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
-
-background-size: 100% 100%;
-
- 
-  padding-top: 80px;
-
+  background-size: 100% 100%;
+  padding-top: 70px;
 }
-
-
 
 .headlines-container {
-  width: 50%;
-  padding: 1px 3px;
-  margin: 2px 2px;
+  margin: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+.headlines-container div {
+  color: #172b4d;
+  font-family: "Inter";
+  text-align: center;
+  margin-bottom: 10px;
 }
 .primary {
-  width: 327px;
-  height: 211px;
-
   font-family: "Inter";
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  color: #172b4d;
-  margin-bottom: 20px;
 }
 
 .dev-span {
   color: #36b37e;
 }
 .supporting-content {
-  width: 327px;
-  height: 164px;
-
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 28px;
+}
+
+.contact-icons i {
+  color: #505f79;
+}
+
+.downarrow {
+  color: #505f79;
+}
+.downarrow-div {
+  margin-top: 60px;
+}
+
+/* my work section*/
+.my-work {
+  display: grid;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0px 0px 5px 0px;
+}
+.aboutme-header {
   text-align: center;
-  color: #172b4d;
-  margin-bottom: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 10px auto 20px auto;
+  padding: 0px 0px 5px 0px;
 }
 
-.contact-icons {
+.project1 {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid grey;
+  border-radius: 16px;
+  width: 95vw;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.project1-img {
+  height: 32vh;
+  background-image: url(assests/images/project1-img.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.project1-conetent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 5px solid gainsboro;
+  border-radius: 4px;
+}
+
+.project1-content-sec1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  background: #ffffff;
+  padding: 12px;
+}
+.project1-content-sec2 {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  margin: 12px 60px;
-
-  width: 170.17px;
-  height: 19.62px;
-
-  box-sizing: border-box;
+  align-items: center;
+  border: 2px solid transparent;
+  border-radius: 1px;
+  padding: 8px;
 }
-
-.icon-twitter,
-.icon-github,
-.icon-linkedin,
-.icon-medium,
-.icon-angellist {
-  color: #505f79;
+.project1-content-sec2 label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #3a4a42;
+  letter-spacing: 0.03em;
+  background: #ebf0ee;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  padding: 4px;
 }
-
-
-.downarrow{
-  color: #505f79;
-  margin: 0px 324%;
-  padding-top: 35px;
+.project1-content-sec3 {
+  text-align: center;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 14px;
+}
+.project1-content-sec3 button {
+  background: #36b37f;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  padding: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }

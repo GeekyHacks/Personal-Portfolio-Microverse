@@ -4,7 +4,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b> Hello Microverse!</b></h3>
+  <h3><b> Personal Portfolio!</b></h3>
 
 </div>
 
@@ -29,16 +29,17 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Hello Microverse!] <a name="about-project"></a>
+# 📖 [Personal Portfolio!] <a name="about-project"></a>
 
-This is my second project with Microverse using Github professional flow
-**[Hello Microverse!]**
+**[My Personal Portfolio!]**
+This is my second project with Microverse using Github professional flow and it's a porfolio website that is built in html & css, it includes my resume, basic information about me and my career, and projects I have worked on.
 
 ## 🛠 Built With <a name="built-with">HTML, CSS</a>
 
-### Key Features <a name="key-features"></a>
+### Key Features <a name="key-features">
+</a>
 
-- **[My favorite color]**
+- [Mobile First Styling]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -50,20 +51,42 @@ This is my second project with Microverse using Github professional flow
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps:
+- Open your Terminal in your VSCode.
+- Navigate to the desired directory[folder] to which you want to clone the repository to
+- [Copy & Paste] git clone you find in the code button https://github.com/GeekyHacks/Personal-Portfolio-Microverse.git
 
 ### Prerequisites
 
 In order to run this project you need:
--VScode
--Prettier Extention
--Git
+- General Understanding of HTML & CSS
+- basic Knowledge of Git Commands
+- basic Knowledge of the Terminal Commands
+
+
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-Using the <em>git clone</em> command
+- git clone https://github.com/GeekyHacks/Personal-Portfolio-Microverse.git
+
+Example commands:
+
+```sh
+  cd my-folder
+  git clone https://github.com/GeekyHacks/Personal-Portfolio-Microverse.git
+
+```
+--->
+### Install
+
+Must-Install-Project-with-the-Following-Programmes:
+
+- Prettier Extention in VScode
+- Git
+- Node.js
+- npm install
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,8 +100,9 @@ Using the <em>git clone</em> command
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[add more interactive buttons and sections]**
-- [ ] **[style it beautifully]**
+- Adding Contact Form Page
+- Customizing it for Desktop Screen
+- Adding Email Newsletter Form
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +123,11 @@ people.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for their unique way of teach me how to code.
+I would like to thank...
+- Microverse Review Team
+- My Coding Partners
+- Microverse Community in Slack
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
