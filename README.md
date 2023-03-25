@@ -37,6 +37,7 @@ This is my second project with Microverse using Github professional flow and it'
 ## 🛠 Built With <a name="built-with">HTML, CSS</a>
 
 ### Key Features <a name="key-features">
+
 </a>
 
 - [Mobile First Styling]
@@ -52,6 +53,7 @@ This is my second project with Microverse using Github professional flow and it'
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps:
+
 - Open your Terminal in your VSCode.
 - Navigate to the desired directory[folder] to which you want to clone the repository to
 - [Copy & Paste] git clone you find in the code button https://github.com/GeekyHacks/Personal-Portfolio-Microverse.git
@@ -59,11 +61,10 @@ To get a local copy up and running, follow these steps:
 ### Prerequisites
 
 In order to run this project you need:
+
 - General Understanding of HTML & CSS
 - basic Knowledge of Git Commands
 - basic Knowledge of the Terminal Commands
-
-
 
 ### Setup
 
@@ -78,7 +79,9 @@ Example commands:
   git clone https://github.com/GeekyHacks/Personal-Portfolio-Microverse.git
 
 ```
+
 --->
+
 ### Install
 
 Must-Install-Project-with-the-Following-Programmes:
@@ -124,10 +127,10 @@ people.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank...
+
 - Microverse Review Team
 - My Coding Partners
 - Microverse Community in Slack
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
